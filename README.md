@@ -1,4 +1,4 @@
-# App Sundesk (React Native + Bubble.io + OneSignal)
+<!-- # App Sundesk (React Native + Bubble.io + OneSignal)
 
 Este projeto é um aplicativo mobile para acompanhar homologações de projetos fotovoltaicos da plataforma Sundesk (Bubble.io).
 
@@ -33,4 +33,4 @@ Este projeto é um aplicativo mobile para acompanhar homologações de projetos 
 - No Bubble:
   - Habilite a API (Settings > API)
   - Crie um workflow backend para enviar notificações com o API Connector.
-
+ -->
