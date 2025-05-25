@@ -6,18 +6,19 @@ export default function ProjetosScreen({ route, navigation }) {
   // -- Teste para verificar a busca e a amostra de projetos
   // Dados de projetos (JSON)
   const initialProjects = [
-    { id: '1', nome: 'Antonio Soares', status: 'Em Andamento', prazo: '31/12/2023' },
-    { id: '2', nome: 'José Jorge', status: 'Concluído', prazo: '30/11/2023' },
-    { id: '3', nome: 'Erivelton Teixeira', status: 'Em Andamento', prazo: '18/04/2025' },
-    { id: '4', nome: 'Livia Costa', status: 'Novo Projeto', prazo: '11/04/2025' },
-    { id: '5', nome: 'João Paulo de Souza', status: 'Informação Pendente', prazo: '-' },
-    { id: '6', nome: 'Mariana Gusmão', status: 'Pendência na Distribuidora', prazo: '-' },
-    { id: '7', nome: 'Antonio Soares', status: 'Em Andamento', prazo: '31/12/2023' },
-    { id: '8', nome: 'José Jorge', status: 'Concluído', prazo: '30/11/2023' },
-    { id: '9', nome: 'Erivelton Teixeira', status: 'Em Andamento', prazo: '18/04/2025' },
-    { id: '10', nome: 'Livia Costa', status: 'Novo Projeto', prazo: '11/04/2025' },
-    { id: '11', nome: 'João Paulo de Souza', status: 'Informação Pendente', prazo: '-' },
-    { id: '12', nome: 'Mariana Gusmão', status: 'Pendência na Distribuidora', prazo: '-' },
+    { id: '1', nome: 'Antonio Soares', status: 'Em Andamento', prazo: '31/12/2025'},
+    { id: '2', nome: 'José Jorge', status: 'Concluído', prazo: '30/11/2025' },
+    { id: '3', nome: 'Erivelton Teixeira', status: 'Em Andamento', prazo: '18/04/2025'},
+    { id: '4', nome: 'Livia Costa', status: 'Novo Projeto', prazo: '11/04/2025'},
+    { id: '5', nome: 'João Paulo de Souza', status: 'Informação Pendente', prazo: '-'},
+    { id: '6', nome: 'Mariana Gusmão', status: 'Pendência na Distribuidora', prazo: '-'},
+    { id: '7', nome: 'Antonio Soares', status: 'Em Andamento', prazo: '31/12/2025'},
+    { id: '8', nome: 'José Jorge', status: 'Concluído', prazo: '30/11/2025'},
+    { id: '9', nome: 'Erivelton Teixeira', status: 'Em Andamento', prazo: '18/04/2025'},
+    { id: '10', nome: 'Livia Costa', status: 'Novo Projeto', prazo: '11/04/2025'},
+    { id: '11', nome: 'João Paulo de Souza', status: 'Informação Pendente', prazo: '-'},
+    { id: '12', nome: 'Mariana Gusmão', status: 'Pendência na Distribuidora', prazo: '-'},
+    { id: '13', nome: 'Wesley Safadão', status: 'Em Andamento', prazo: '05/10/2025'},
   ];
   // Variável de estado para armazenar os projetos e o filtro de busca
   const [projects, setProjects] = useState(initialProjects);
